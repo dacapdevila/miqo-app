@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BCBA35B52E43FCAD00E6B054 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BCBA35B42E43FCA600E6B054 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BCF8D6332E43B68A00CB37E0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BCBA35B42E43FCA600E6B054 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		BCF8D6252E43B68900CB37E0 /* miqo-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "miqo-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF8D6322E43B68A00CB37E0 /* miqo-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "miqo-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF8D63C2E43B68A00CB37E0 /* miqo-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "miqo-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +80,7 @@
 		BCF8D61C2E43B68900CB37E0 = {
 			isa = PBXGroup;
 			children = (
+				BCBA35B42E43FCA600E6B054 /* .gitignore */,
 				BCF8D6272E43B68900CB37E0 /* miqo-app */,
 				BCF8D6352E43B68A00CB37E0 /* miqo-appTests */,
 				BCF8D63F2E43B68A00CB37E0 /* miqo-appUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCBA35B52E43FCAD00E6B054 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
